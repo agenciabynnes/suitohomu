@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>482465557913-1vqo65mnp7tl3t3tnv8qsp0m0idhp23c.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.482465557913-1vqo65mnp7tl3t3tnv8qsp0m0idhp23c</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBd-xyt89GPYFkJtkjh4beZKvvjqLxeZ_4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>482465557913</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.suitohomu.ios</string>
+	<key>PROJECT_ID</key>
+	<string>suitohomu-e9392</string>
+	<key>STORAGE_BUCKET</key>
+	<string>suitohomu-e9392.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:482465557913:ios:fb8d3ecc6c68502372f708</string>
+	<key>DATABASE_URL</key>
+	<string>https://suitohomu-e9392.firebaseio.com</string>
+</dict>
+</plist>

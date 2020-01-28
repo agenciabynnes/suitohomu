@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "482465557913",
+    "firebase_url": "https://suitohomu-e9392.firebaseio.com",
+    "project_id": "suitohomu-e9392",
+    "storage_bucket": "suitohomu-e9392.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482465557913:android:d5ab20828db76ed272f708",
+        "android_client_info": {
+          "package_name": "com.suitohomu.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482465557913-o1cv3hrtsn8in0vt8ii9dhmcpggeu71u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh-k3rlfgyofwJcr1ZOBUGIyK_VV4oIsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482465557913-o1cv3hrtsn8in0vt8ii9dhmcpggeu71u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "482465557913-1vqo65mnp7tl3t3tnv8qsp0m0idhp23c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.suitohomu.ios"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
