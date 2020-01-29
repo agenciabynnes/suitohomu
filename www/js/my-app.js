@@ -52,7 +52,7 @@ function execmascara(){
 function mplaca(v){
     v=v.replace(/([a-zA-Z]{3})(\d{1,2})$/,"$1-$2") //Coloca um hífen entre o terceiro e o quarto dígitos
     //v=v.replace(/(\d{4})(\d)/,"$1-$2")
-    return v
+    return v.toUpperCase()
 }
 //window.screen.lockOrientation('portrait');
 //intel.xdk.device.setRotateOrientation("portrait");
@@ -4504,6 +4504,7 @@ $$('#pdfFileOcorrencias').on('change', function (e) {
         }
     }else{
         myApp.alert('Formato inválido! Escolha um arquivo no formato PDF.');
+        myApp.hideIndicator();
     }
 
 });
@@ -8819,6 +8820,7 @@ $$('#pdfFileComuncondominio').on('change', function (e) {
         }
     }else{
         myApp.alert('Formato inválido! Escolha um arquivo no formato PDF.');
+        myApp.hideIndicator();
     }
 
 });
@@ -10030,6 +10032,7 @@ $$('#pdfFileComunportaria').on('change', function (e) {
         }
     }else{
         myApp.alert('Formato inválido! Escolha um arquivo no formato PDF.');
+        myApp.hideIndicator();
     }
 
 });
@@ -10718,6 +10721,7 @@ $$('#pdfFileComunmorador').on('change', function (e) {
         }
     }else{
         myApp.alert('Formato inválido! Escolha um arquivo no formato PDF.');
+        myApp.hideIndicator();
     }
 
 });
