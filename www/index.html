@@ -20,7 +20,7 @@
     </script>
     <script src="cordova.js"></script>
     <script src="xdk/init-dev.js"></script>
-    <script type="application/javascript" src="lib/jquery.min.js"></script>
+    <script type="application/javascript" src="lib/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="framework7/js/framework7.js"></script>
 
     <script type="text/javascript" src="js/jquery.mask.js"></script>
@@ -61,6 +61,9 @@
                     <!--<li class="menuinterfone">
                         <a href="#interfone" class="panel-close" onclick="interfone();"><i class="icon fa fa-volume-control-phone fa-lg color-green"></i>INTERFONE</a>
                     </li>-->
+                    <li class="menutaps">
+                        <a href="#" class="panel-close" onclick="bannercont('20');"><i class="icon fa fa-usd fa-lg color-green"></i>CRÉDITO PESSOAL</a>
+                    </li>
                     <li class="menualerta">
                         <a href="#alertadechegada" class="panel-close" onclick="alertadechegada();"><i class="icon fa fa-car fa-lg color-amber"></i>AVISO DE CHEGADA</a>
                     </li>
@@ -75,6 +78,9 @@
                     </li>-->
                     <li class="menuocorrencia">
                         <a href="#livroocorrencias" class="panel-close" onclick="livroocorrencias();"><i class="icon fa fa-leanpub fa-lg color-gray"></i>LIVRO DE OCORRÊNCIAS</a>
+                    </li>
+                    <li class="menugetninjas">
+                        <a href="#getninjas" class="panel-close" onclick="getninjas();"><i class="icon fa fa-handshake-o fa-lg color-pink"></i>CONTRATAÇÃO DE SEVIÇOS</a>
                     </li>
                     <li class="menucadastros">
                         <a href="#cadastros" class="panel-close"><i class="icon fa fa-male fa-lg color-brown"></i>CADASTROS</a>
@@ -141,6 +147,9 @@
                     <!--<li class="menuinterfone">
                         <a href="#interfone" onclick="interfone();" class="item-link"><i class="icon fa fa-volume-control-phone fa-3x  color-green"></i><br>INTERFONE DO<br>CONDOMÍNIO</a>
                     </li>-->
+                    <li class="menutaps">
+                        <a href="#" class="item-link" onclick="bannercont('20');"><i class="icon fa fa-usd fa-3x color-green"></i><br>CRÉDITO PESSOAL<br><small>em apenas 2 passos</small></a>
+                    </li>
                     <li class="menualerta">
                         <a href="#alertadechegada" class="item-link" onclick="alertadechegada();"><i class="icon fa fa-car fa-3x color-amber"></i><br>AVISO<br>DE CHEGADA</a>
                     </li>
@@ -159,11 +168,14 @@
                     <li class="menucadastros">
                         <a href="#cadastros" class="item-link"><i class="icon fa fa-male fa-3x color-brown"></i><br>CADASTROS<br>DO CONDOMÍNIO</a>
                     </li>
-                    <li class="menutransparencia">
-                        <a href="#transparenciadecontastipo" class="item-link" onclick="transparenciadecontastipo();"><i class="icon fa fa-calculator fa-3x badgetransparencia color-orange"></i><br>DOCUMENTOS<br>DO CONDOMÍNIO</a>
+                    <li class="menugetninjas">
+                        <a href="#getninjas" class="item-link" onclick="getninjas();"><i class="icon fa fa-handshake-o fa-3x color-pink"></i><br>CONTRATAÇÃO <br>DE SERVIÇOS<br><small> GetNinjas</small></a>
                     </li>
                     <li class="menuenquetes">
                         <a href="#enquetes" class="item-link" onclick="enquetes();"><i class="icon fa fa-check-square-o fa-3x color-deeporange"></i><br>ENQUETES<br>DO CONDOMÍNIO</a>
+                    </li>
+                    <li class="menutransparencia">
+                        <a href="#transparenciadecontastipo" class="item-link" onclick="transparenciadecontastipo();"><i class="icon fa fa-calculator fa-3x badgetransparencia color-orange"></i><br>DOCUMENTOS<br>DO CONDOMÍNIO</a>
                     </li>
                     <li class="menuanuncios">
                         <a href="#muraldeanuncios" onclick="muraldeanuncios();" class="item-link" ><i class="icon fa fa-shopping-cart fa-3x color-teal"></i><br>MURAL<br>DE ANÚNCIOS</a>
@@ -185,6 +197,27 @@
                     </li>-->
                   </ul>
               </div>
+            </div>
+
+            <!-- getninjas -->
+            <div data-page="getninjas" class="page cached">
+
+              <div class="navbar">
+                <div class="navbar-inner">
+                  <div class="left"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
+                    <div class="center">CONTRATAÇÃO DE SERVIÇOS</div>
+                    <div class="right"><a href="#" class="back link icon-only"><i class="icon icon-back"></i></a></div>
+                    <div class="right no-margin"><a href="#index" class="link icon-only"><i class="icon fa fa-home"></i></a></div>
+                </div>
+              </div>
+
+
+              <div class="page-content">
+                <div class="content-block boletos-100">  
+                  <iframe src="" class="iframe-boleto" target="_self"></iframe>
+                </div>
+              </div>
+
             </div>
 
             <!-- boleto conteudo -->
@@ -2465,6 +2498,7 @@
                           </div>
                         </div>
                       </li>
+                      <input type="hidden" id="blocolistmorador" class="sembloco invisivel">
 
                       <li class="domiciliolistcomunicadoli">
                         <div class="item-content">
